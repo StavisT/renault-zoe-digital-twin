@@ -1,0 +1,8 @@
+# .flake8
+[flake8]
+select = B,B9,BLK,C,E,F,I,S,W
+ignore = E203,E501,W503
+per-file-ignores = tests/*:S101 #disable assertion warning in test suite
+max-line-length = 110
+application-import-names = renault_zoe,tests
+import-order-style = google
