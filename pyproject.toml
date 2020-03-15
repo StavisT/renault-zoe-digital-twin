@@ -2,7 +2,12 @@
 name = "renault-zoe-digital-twin"
 version = "0.1.0"
 description = "Extracting data from Renault ZoE Electic Vehicle and streaming it to Cognite Data Fusion"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/StavisT/renault-zoe-digital-twin"
+repository = "https://github.com/StavisT/renault-zoe-digital-twin"
 authors = ["Simon Stavland <simon.stavland@gmail.com>"]
+keywords = ["digital twin", "CDF", "Cognite", "electric vehicle", "IoT"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
